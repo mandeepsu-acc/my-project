@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Push TWO') {
+        stage('After Manual Push') {
             steps {
                 echo 'Getting things from Git'
             }
